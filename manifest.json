@@ -1,0 +1,29 @@
+{
+    "name": "Desmos Text I/O",
+    "description": "Import/Export graphs as a text (json) in Desmos",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://www.desmos.com/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "injected.js"
+            ],
+            "matches": [
+                "https://*/*"
+            ]
+        }
+    ]
+}
