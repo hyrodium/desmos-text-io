@@ -5,7 +5,6 @@ src = chrome.runtime.getURL('/injected.js')
 const script = document.createElement('script');
 script.src = src;
 script.onload = function () {
-    console.log("script injected");
     this.remove();
 };
 document.documentElement.appendChild(script);
@@ -37,19 +36,16 @@ let result = { export: default_state };
 // Get state
 function getST() {
     window.dispatchEvent(new CustomEvent('execPageFuncExport', {}));
-    console.log(result.export)
     return result.export
 }
 
 // Set state
 function setST(state) {
     window.dispatchEvent(new CustomEvent('execPageFuncImport', { detail: state }));
-    console.log(result.export)
 }
 
 window.addEventListener('getStateResult', arg => {
     const state = arg.detail;
-    console.log(state);
     result.export = state
 });
 
@@ -57,11 +53,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.message == "export") {
         state = getST()
         state_json = JSON.stringify(state, null, "  ")
-        console.log(state_json)
         sendResponse(state_json);
     } else if (request.message == "import") {
         state_json = request.state_json
-        console.log(state_json)
         state = JSON.parse(state_json)
         setST(state)
     }

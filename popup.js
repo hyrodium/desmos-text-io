@@ -9,7 +9,6 @@ document.getElementById('btn_export').addEventListener('click', () => {
 document.getElementById('btn_import').addEventListener('click', () => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         state_json = document.getElementById('title').value;
-        console.log(state_json)
         chrome.tabs.sendMessage(tabs[0].id, { message: 'import', state_json: state_json }, () => { });
     });
 });
