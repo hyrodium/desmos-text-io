@@ -12,3 +12,5 @@ document.getElementById('btn_import').addEventListener('click', () => {
         chrome.tabs.sendMessage(tabs[0].id, { message: 'import', state_json: state_json }, () => { });
     });
 });
+
+document.getElementById('script_area').addEventListener('focus', event => event.target.select())
