@@ -13,3 +13,4 @@ This extension enables the import/export of desmos graphs in json format. With t
 Links:
 
 * Chrome Web Store: https://chrome.google.com/webstore/detail/desmos-text-io/ndjdcebpigpfidnilppdpcdkibidfmaa
+* GitHub repo: https://github.com/hyrodium/DesmosTextIO
