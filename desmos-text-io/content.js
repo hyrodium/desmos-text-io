@@ -41,7 +41,14 @@ function getST() {
 
 // Set state
 function setST(state) {
-    window.dispatchEvent(new CustomEvent('execPageFuncImport', { detail: state }));
+    if (typeof cloneInto !== 'undefined'){
+        // Firefox
+        let clonedDetail = cloneInto(state, document.defaultView);
+        window.dispatchEvent(new CustomEvent('execPageFuncImport', { detail: clonedDetail }));
+    } else {
+        // Chrome
+        window.dispatchEvent(new CustomEvent('execPageFuncImport', { detail: state }));
+    }
 }
 
 window.addEventListener('getStateResult', arg => {
