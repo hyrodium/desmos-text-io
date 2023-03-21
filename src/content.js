@@ -1,5 +1,5 @@
 // Load js file to be injected
-src = chrome.runtime.getURL('/injected.js')
+src = chrome.runtime.getURL('/../injected.js')
 
 // Create script element and inject the script
 const script = document.createElement('script');
