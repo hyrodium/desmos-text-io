@@ -1,0 +1,18 @@
+{
+  "name": "desmos-text-io",
+  "version": "1.2.0",
+  "description": "import/export Desmos graphs as text (json).",
+  "main": "popup.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyrodium/DesmosTextIO.git"
+  },
+  "author": "hyrodium",
+  "license": "MIT",
+  "dependencies": {
+    "ace-builds": "^1.16.0"
+  }
+}
