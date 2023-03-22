@@ -8,10 +8,21 @@ This extension enables the import/export of desmos graphs in json format. With t
 
 * Customize graphs (more colors, high-resolution images)
 * Save the graphs locally as a text file.
-* Create desmos graph in JSON format from other software.
+* Create desmos graphs in JSON format from other software.
 
-Links:
+## Installation
 
 * Chrome Web Store: https://chrome.google.com/webstore/detail/desmos-text-io/ndjdcebpigpfidnilppdpcdkibidfmaa
 * Firefox ADD-ONS: https://addons.mozilla.org/en-US/firefox/addon/desmos-text-i-o/
-* GitHub repo: https://github.com/hyrodium/DesmosTextIO
+
+## Development
+The following command creates `dist` and `extension.zip`.
+```
+git clone https://github.com/hyrodium/DesmosTextIO
+cd DesmosTextIO
+npm install
+npm run build
+```
+
+To try the dev-version extension, load the `dist` directory (or `dist/manifest.json` file) from your browser.
+`extension.zip` will be used to register the extension to the Chrome Web Store or Firefox ADD-ONS.
