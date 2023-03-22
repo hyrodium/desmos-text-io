@@ -2,7 +2,7 @@
 
 Chrome extension: import/export desmos graphs in json format
 
-[![Preview on YouTube](https://img.youtube.com/vi/RnQ7_H4XFGY/0.jpg)](https://www.youtube.com/watch?v=RnQ7_H4XFGY)
+[![Preview on YouTube](https://img.youtube.com/vi/cwNIwvL-a2U/0.jpg)](https://www.youtube.com/watch?v=cwNIwvL-a2U)
 
 This extension enables the import/export of desmos graphs in json format. With this feature, you will have the following benefits:
 
