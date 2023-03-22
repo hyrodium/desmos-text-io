@@ -13,8 +13,8 @@ This extension enables the import/export of desmos graphs in JSON format. With t
 
 ## Installation
 
-* Chrome Web Store: https://chrome.google.com/webstore/detail/desmos-text-io/ndjdcebpigpfidnilppdpcdkibidfmaa
-* Firefox ADD-ONS: https://addons.mozilla.org/en-US/firefox/addon/desmos-text-i-o/
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/desmos-text-io/ndjdcebpigpfidnilppdpcdkibidfmaa)
+* [Firefox ADD-ONS](https://addons.mozilla.org/en-US/firefox/addon/desmos-text-i-o/)
 
 ## Development
 The following command creates `dist` and `extension.zip`.
