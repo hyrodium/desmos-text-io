@@ -1,6 +1,6 @@
 {
   "name": "desmos-text-io",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "import/export Desmos graphs as text (json).",
   "main": "popup.js",
   "scripts": {
