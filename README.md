@@ -1,7 +1,8 @@
 # DesmosTextIO
 
-Chrome extension: import/export desmos graphs in json format
+A browser extension to import/export desmos graphs in json format
 
+Demo on YouTube:
 [![Preview on YouTube](https://img.youtube.com/vi/cwNIwvL-a2U/0.jpg)](https://www.youtube.com/watch?v=cwNIwvL-a2U)
 
 This extension enables the import/export of desmos graphs in json format. With this feature, you will have the following benefits:
