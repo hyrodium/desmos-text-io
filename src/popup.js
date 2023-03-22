@@ -1,5 +1,5 @@
 const editor = ace.edit("editor");
-editor.getSession().setMode("ace/mode/javascript");
+editor.getSession().setMode("ace/mode/json");
 btn_import.disabled = true
 
 document.getElementById('btn_export').addEventListener('click', () => {
