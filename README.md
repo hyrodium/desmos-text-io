@@ -1,14 +1,14 @@
 # DesmosTextIO
 
-A browser extension to import/export desmos graphs in json format
+A browser extension to import/export desmos graphs in JSON format
 
 **Demo on YouTube**:\
 [![Preview on YouTube](https://img.youtube.com/vi/cwNIwvL-a2U/0.jpg)](https://www.youtube.com/watch?v=cwNIwvL-a2U)
 
-This extension enables the import/export of desmos graphs in json format. With this feature, you will have the following benefits:
+This extension enables the import/export of desmos graphs in JSON format. With this feature, you will have the following benefits:
 
-* Customize graphs (more colors, high-resolution images)
-* Save the graphs locally as a text file.
+* Customize your graphs (more colors, high-resolution images)
+* Save your graphs locally as text files.
 * Create desmos graphs in JSON format from other software.
 
 ## Installation
