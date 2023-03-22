@@ -17,7 +17,7 @@ module.exports = {
     filename: '[name].bundle.js',
   },
   optimization: {
-    minimize: false
+    // minimize: false
   },
   plugins: [
     new CopyWebpackPlugin({
