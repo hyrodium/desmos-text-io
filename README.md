@@ -27,3 +27,9 @@ npm run build
 
 To try the dev-version extension, load the `dist` directory (or `dist/manifest.json` file) from your browser.
 `extension.zip` will be used to register the extension to the Chrome Web Store or Firefox ADD-ONS.
+
+## Working with other tools
+* [Desmos.jl](https://github.com/hyrodium/Desmos.jl)
+    * A Julia package to generate Desmos script (JSON) with Julia language.
+
+Please send a PR updating the above list if you have other tools that can export Desmos scripts!
