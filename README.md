@@ -31,5 +31,7 @@ To try the dev-version extension, load the `dist` directory (or `dist/manifest.j
 ## Working with other tools
 * [Desmos.jl](https://github.com/hyrodium/Desmos.jl)
     * A Julia package to generate Desmos script (JSON) with Julia language.
+* [Graphlang](https://github.com/MasterbuilderMS/GraphLang)
+    * A Language that compiles to desmos JSON.
 
 Please send a PR updating the above list if you have other tools that can export Desmos scripts!
